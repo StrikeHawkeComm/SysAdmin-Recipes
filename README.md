@@ -3,15 +3,15 @@ cPanel Bash File Tools
 
 This is my compilation of useful cPanel/centOS 6.x bash files and conf files to harden your server.
 
-## House Keeping Chores
-1. Chown All Users
-2. Optimize All Databases
-3. Logrotate user big log files
-4. Backup domlogs
-5. lftp migrates
-6. bind update serials
-7. SA user preferenes *custom*
-8. Pyzor, DCC2 for email server
+## Directory Navigation
+1. Bash Scripts
+2. CRON Jobs
+3. YAML's
+4. CONFs
+5. INIs
+6. SOPs
+7. IT Policies Template
+8. WHMCS/cPanel
 9. If I missed something, fork it and add it.
 
 
