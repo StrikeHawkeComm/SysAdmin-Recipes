@@ -16,7 +16,7 @@ This is my compilation of useful cPanel/centOS 6.x bash files and conf files to 
 
 
 ### Task List to be completed
-- [ ] [Bash Scripts]()
+- [ ] [Bash Scripts](bash)
 - [ ] PHP 5.4
 - [ ] MySQL 5x cnf
 - [ ] csf firewall
