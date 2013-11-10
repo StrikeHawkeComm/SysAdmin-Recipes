@@ -16,13 +16,13 @@ This is my compilation of useful cPanel/centOS 6.x bash files and conf files to 
 
 
 ### Task List to be completed
-[] Apache 2.4.x conf
-[] PHP 5.4
-[] MySQL 5x cnf
-[] csf firewall
-[] cPanel yaml
-[] logrotate custom
-[] domlog backups
-[] lftp migrates
-[] update bind serial
-[] SpamAssassin Custom User Prefs
+- [ ] Apache 2.4.x conf
+- [ ] PHP 5.4
+- [ ] MySQL 5x cnf
+- [ ] csf firewall
+- [ ] cPanel yaml
+- [ ] logrotate custom
+- [ ] domlog backups
+- [ ] lftp migrates
+- [ ] update bind serial
+- [ ] SpamAssassin Custom User Prefs
