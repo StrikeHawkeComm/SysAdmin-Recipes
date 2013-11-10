@@ -4,7 +4,7 @@ cPanel Bash File Tools
 This is my compilation of useful cPanel/centOS 6.x bash files and conf files to harden your server.
 
 ## Directory Navigation
-1. [Bash Scripts](https://github.com/InetBIZonline/SysAdmin-Recipes/tree/develop/bash "Bash Scripts")
+1. [Bash Scripts](bash "Bash Scripts")
 2. CRON Jobs
 3. YAML's
 4. CONFs
