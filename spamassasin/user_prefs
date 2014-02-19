@@ -47,4 +47,5 @@ score RDNS_DYNAMIC 1.7
 score RDNS_NONE 4.7
 score SPF_HELO_SOFTFAIL 0 1.002 0 3.140
 score LOTS_OF_MONEY 3.0
-whitelist_from *@domain.com
+# Add your whitelist entries here
+# whitelist_from *@domain.com
