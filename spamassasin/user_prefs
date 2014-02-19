@@ -1,0 +1,50 @@
+# SACONFIGSTART
+# Make sure we get the required score header.
+rewrite_header subject [SPAM] (_SCORE_)
+# SACONFIGEND
+use_bayes 1
+use_bayes_rules 1
+use_razor2 1
+
+# SA RULES GO HERE
+
+add_header all Score _SCORE_
+bayes_auto_learn 1
+bayes_auto_learn_threshold_nonspam -5.0
+bayes_auto_learn_threshold_spam 6.0
+bayes_min_ham_num 200
+bayes_min_spam_num 200
+ok_languages en
+ok_locales en
+report_safe 2
+required_score 5
+score AWL 0.00
+score BAYES_50 2.5
+score URIBL_JP_SURBL 15.0
+score URIBL_BLOCKED 6.0
+score DNS_FROM_AHBL_RHSBL 4.7
+score DNS_FROM_RFC_BOGUSMX 3.7
+score FORGED_YAHOO_RCVD 3.7
+score FREEMAIL_FROM 2.7
+score HELO_DYNAMIC_DHCP 1.4
+score HELO_DYNAMIC_IPADDR2 3.6
+score HELO_DYNAMIC_SPLIT_IP 3.5
+score RAZOR2_CHECK 10.5
+score HK_RANDOM_ENVFROM 2.7
+score KHOP_DYNAMIC 1.7
+score MIME_HTML_ONLY 1.204 1.158 1.156 0.177
+score MISSING_MIMEOLE 2.7
+score NO_DNS_FOR_FROM 2.7
+score NUMERIC_HTTP_ADDR 6
+score PYZOR_CHECK 12
+score RCVD_IN_BL_SPAMCOP_NET 4.7
+score RCVD_IN_DNSWL_BLOCKED 10
+score RCVD_IN_DNSWL_LOW -1.0
+score RCVD_IN_NJABL_SPAM 4.7
+score RCVD_IN_SORBS_DUL 5
+score RCVD_IN_XBL 4.7
+score RDNS_DYNAMIC 1.7
+score RDNS_NONE 4.7
+score SPF_HELO_SOFTFAIL 0 1.002 0 3.140
+score LOTS_OF_MONEY 3.0
+whitelist_from *@domain.com
