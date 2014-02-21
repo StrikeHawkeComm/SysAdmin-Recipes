@@ -1,5 +1,6 @@
 ##
 ## IF you run into a sitation of migrating a database and forget the auto_increments
+## Requires CRE Loaded V62x Shopping Cart database
 ##
 ALTER TABLE address_book MODIFY address_book_id int(11) NOT NULL auto_increment;
 ALTER TABLE address_format MODIFY address_format_id int(11) NOT NULL auto_increment;
