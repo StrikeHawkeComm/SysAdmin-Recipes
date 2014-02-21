@@ -1,0 +1,4 @@
+#!/bin/bash
+/bin/cp -p `/usr/bin/php5 -i | grep 'Loaded Configuration File' | awk '{ print $5}'` /backup/cpbackup/daily/files/php5.ini
+/bin/tar -czvf /backup/cpbackup/daily/files/_etc_cxs.tar.gz /etc/cxs/
+/bin/tar -czvf /backup/cpbackup/daily/files/_etc_csf.tar.gz /etc/csf/
